@@ -21,6 +21,10 @@
 .header{
   display: flex;
 }
+.green-background{
+
+  background-color: #4A8B70;
+}
 .bio{
   background-color: #ffffff;
   height: 300px;
@@ -28,7 +32,11 @@
   border-radius: 30px;
   gap: 10px;
   margin-top: 63px;
-  margin-left: 30px;
+  margin-left: 10px;
+  font-size: 35px;
+}
+.bio-summary{
+  margin-left: 10px;
 }
 
 .profile-picture{
@@ -37,6 +45,7 @@
   border-radius: 30px;
   margin-top: 63px;
 }
+
 .proficiency-skill{
   display: flex;
   margin-top: 30px;
@@ -45,7 +54,7 @@
 .proficiency {
   background-color: #ffffff;
   width: 563.9px;
-  height:428.37px;
+  height:400px;
   border-radius: 29.04px;
   padding: 41px 28px 41px 21px;
   gap: 10px;
@@ -93,9 +102,10 @@
 .tags {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   gap: 10px;
   margin-top: 20px;
+
 }
 
 .tag {
@@ -125,8 +135,15 @@
 
 }
 
+.highlight-card {
+  background-color: #4CAF50; /* green */
+  color: white; /* text visible */
+  padding: 15px;
+  border-radius: 8px;
+}
+
 .project-card {
-  background-color: #e04545;
+  background-color: #E7F0EC;
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   padding: 20px;
@@ -166,6 +183,7 @@
   gap: 10px;
   margin-top: 30px;
   background-color: #ffffff;
+
 }
 
 .timeline .section-title {
@@ -173,12 +191,20 @@
   margin-bottom: 40px;
 }
 
-.timeline-item {
-  border-left: 4px solid #66988d;
-  padding-left: 20px;
-  margin-bottom: 30px;
-  position: relative;
+  .timeline-item{
+    background-color: #E7F0EC;
+    border-radius: 10px;
+    border-left: 4px solid #66988d;
+    padding-left: 20px;
+    margin-bottom: 30px;
+    position: relative;
+    width: 946px;
+    height: 242px;
 }
+.education-container{
+margin-left: 30px;
+}
+
 
 .timeline-item::before {
   content: '';
@@ -251,10 +277,27 @@
   gap: 10px;
   display: flex;
 }
+.experience{
+  margin-top: 30px;
+    width: 1365px;
+    height: 400px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    
+    
+  }
+
+  .item-background{
+  background-color: #E7F0EC;
+    background-color: ;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+  }
 .experiences{
   background-color: #ffffff;
   width: 1316px;
-  height: 640px;
+  height: 600px;
   border-radius:30px;
 }
 .experience-item {
@@ -289,7 +332,7 @@
 }
 .site-footer {
   width: 1322px;
-  height: 158px;
+  height: 108px;
   background-color: #D76230;
   color: #ffffff;
   text-align: center;
@@ -319,21 +362,16 @@
 
 @media (max-width: 1024px){
 .projects{
-  width: 944.69px;
-  height: 847px;
+  
 }
-.experiences{
-  width: 944.69px;
-}
-.site-footer{
-  width: 890px;
-}
-}
-@media (max-width: 768px){
-.experiences{
-  width: 370px;
 
+.font-size{
+  font-size: 90px;
 }
+}
+
+
+@media (max-width: 768px){
  .proficiency-skill {
     display: grid;
    grid-template-columns: 1fr;
@@ -349,26 +387,60 @@
     width: 560px;
   }
   .header{
-    width: 65+8px;
+    width: 658px;
   }
   .education-tools{
      display: grid;
    grid-template-columns: 1fr;
+
   }
   .tools{
     width: 365px;
+    height: 400px;
+     display: grid;
+   
   }
+  
   .education{
     width: 300px;
+    height: 461px;
+    
   }
-  .projects{
-    width: 359px;
+  .timeline-item{
+    width: 200px;
+    height: 100px;
+    
+    
+  }
+  .timeline-date{
+    font-size: 11px;
+    
   }
   .skills-tags{
     width: 303px;
+    height: 177px;
+
   }
   .proficiency{
     width: 310px;
+    height: 177px;
+  }
+  .skill-container{
+    width: 294px;
+    height: 74px;
+  }
+  .section title{
+    margin-buttom: 90px;
+  }
+  .skill-name{
+    font-size: 11px;
+   height: 6px;
+  }
+  .skill{
+    width: 230px;
+    height: 10px;
+    gap: 20px;
+    
   }
   .header{
     width: 390px;
@@ -378,11 +450,43 @@
     height: 137px;
   }
   .bio{
-    width: 900px;
+    width: 215px;
     height: 137px;
+    font-size: 13px;
+  }
+  .project-card{
+    width: 100px;
+    margin-left: 13px;
+    height: 240px;
   }
   .project-grid{
+    width: x;
+    height: px;
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+  .projects{
+    width: 349px;
+    height: 692px;
+ 
+  }
+  
+.experience-item{
+  width: 305px;
+  height: 112px;
+  margin-left: 10px;
 }
+
+  
+  
+.experience{
+  margin-top: 30px;
+    width:378px;
+    height: 495px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    
+  }
+
+}
+  
