@@ -109,11 +109,12 @@
 }
 
 .tag {
-  background-color: #66988d;
+  background-color: #e6f2ef;
   color: white;
   padding: 8px 16px;
   border-radius: 20px;
-  font-size: 14px;
+  
+ 
 }
 .projects {
   text-align: center;
@@ -122,6 +123,7 @@
   border-radius: 29.04px;
   margin-top: 30px;
   background-color: #ffffff;
+  
 }
 
 .project-grid {
@@ -288,8 +290,7 @@ margin-left: 30px;
   }
 
   .item-background{
-  background-color: #E7F0EC;
-    background-color: ;
+   background-color: #E7F0EC;
     margin-left: 50px;
     margin-right: 50px;
     border-radius: 10px;
@@ -368,6 +369,9 @@ margin-left: 30px;
 .font-size{
   font-size: 90px;
 }
+.tag{
+  width: 300px;
+}
 }
 
 
@@ -396,8 +400,8 @@ margin-left: 30px;
   }
   .tools{
     width: 365px;
-    height: 400px;
-     display: grid;
+    height: 300px;
+     
    
   }
   
@@ -436,6 +440,10 @@ margin-left: 30px;
     font-size: 11px;
    height: 6px;
   }
+  .tag{
+    width: 70px;
+    height: 10px;
+  }
   .skill{
     width: 230px;
     height: 10px;
@@ -458,6 +466,7 @@ margin-left: 30px;
     width: 100px;
     margin-left: 13px;
     height: 240px;
+    
   }
   .project-grid{
     width: x;
@@ -487,6 +496,12 @@ margin-left: 30px;
     border-radius: 30px;
     
   }
-
+  .tools-grid{
+   display: flex;
+  flex-direction: row;
+  }
+.tool-container{
+  
+}
 }
   
