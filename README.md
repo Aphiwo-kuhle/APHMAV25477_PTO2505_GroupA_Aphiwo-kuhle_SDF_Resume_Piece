@@ -17,7 +17,7 @@ It replicates a real-world resume layout and demonstrates key frontend developme
 ---
 
 ## 🎥 Presentation Video
-🔗 [Watch my project walkthrough here](YOUR_VIDEO_LINK_HERE)
+🔗 [Watch my project walkthrough here](https://1drv.ms/f/c/949c2d3a139cdf95/EqJLZufiIjBItGMWqJ95JFcBPhoxIwn5srCCkTt3Qn7tbw?e=ssiaP6)
 
 In this 5–10 minute presentation, I explain:
 - The structure of my resume website  
